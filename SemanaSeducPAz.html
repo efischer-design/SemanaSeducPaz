@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Página Flexbox</title>
+
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+
+        /* Fundo em gradiente */
+        background: linear-gradient(to bottom, blue, yellow, green);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        font-family: Arial, sans-serif;
+    }
+
+    /* Quadrado */
+    .quadrado {
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    /* Retângulo abaixo */
+    .retangulo {
+        margin-top: 20px;
+        width: 300px;
+        height: 100px;
+        background-color: white;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
